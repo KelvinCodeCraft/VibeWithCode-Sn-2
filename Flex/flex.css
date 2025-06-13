@@ -1,0 +1,37 @@
+.wrapper{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 500px;
+    justify-self: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.item1, .item2, .item3{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.item1{
+    background-color: red;
+    order: 1;
+    /* flex-shrink: 19; */
+}
+
+.item2{
+    background-color: green;
+    order: -1;
+    /* flex-grow: 1; */
+}
+
+.item3{
+    background-color: blue;
+    order: 1;
+    /* flex-basis: 100px; */
+}
+
+
+
