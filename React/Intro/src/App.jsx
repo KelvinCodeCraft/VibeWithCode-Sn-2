@@ -1,5 +1,7 @@
 import React from "react";
 import './App.css';
+import About from "./Components/About/about";
+import Form from "./Components/Form/form";
 
 function App() {
   
@@ -8,6 +10,8 @@ function App() {
       <header className="App-header">
         <h1>Welcome to React</h1>
         <p>This is a simple React application.</p>
+        <About />
+        <Form />
       </header>
     </div>
   );
