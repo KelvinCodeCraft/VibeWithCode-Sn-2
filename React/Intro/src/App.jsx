@@ -4,16 +4,16 @@ import About from "./Components/About/about";
 import Form from "./Components/Form/form";
 
 function App() {
-  
+  const name = "React";
+  const messages = [1, 2, 3];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Welcome to React</h1>
-        <p>This is a simple React application.</p>
-        <About />
-        <Form />
-      </header>
-    </div>
+    <>
+    <h1>Hello, {name}!</h1>
+    <h1>You have {messages.length} new messages.</h1>
+    </>
+    
+
   );
 }
 
